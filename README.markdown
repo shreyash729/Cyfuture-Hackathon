@@ -11,6 +11,7 @@ Aarogya is an innovative healthcare portal designed to enhance patient care thro
 - ***demo Video:***
    [Watch Demo Video](/notes.mp4)
 
+#
 
 - **Symptom Checker** (Live): Powered by Google Gemini AI, this feature analyzes user-reported symptoms to provide potential diagnoses, enhancing patient accessibility to health insights.
 
