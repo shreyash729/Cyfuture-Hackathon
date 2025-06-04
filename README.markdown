@@ -46,15 +46,16 @@ The Automated Clinical Documentation feature uses the Vosk speech-to-text model,
 ### Local Demo
 
 To run the app locally, including the speech-to-text feature:
-
-1. **Clone the Repository**:
+1. **UPDATE GEMINI API KEY**:
+   - in `app.py` update your gemini api key
+2. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/<your-username>/Cyfuture-Hackathon.git
    cd Cyfuture-Hackathon
    ```
 
-2. **Install Dependencies**:
+3. **Install Dependencies**:
 
    ```bash
    python -m venv venv
@@ -63,7 +64,7 @@ To run the app locally, including the speech-to-text feature:
    pip install vosk pyaudio
    ```
 
-3. **Run the App**:
+4. **Run the App**:
 
    ```bash
    python app.py
