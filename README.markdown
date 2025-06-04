@@ -4,7 +4,9 @@ Aarogya is an innovative healthcare portal designed to enhance patient care thro
 
 ## Features
 
-- **Automated Clinical Documentation** (Working on local machine) : The Automated Clinical Documentation app uses voice recognition and NLP to generate structured clinical notes from doctor-patient conversations. It streamlines documentation, reducing administrative burden for healthcare providers.
+ ### Automated Clinical Documentation:
+ 
+ The Automated Clinical Documentation app uses voice recognition and NLP to generate structured clinical notes from doctor-patient conversations. It streamlines documentation, reducing administrative burden for   healthcare providers.
 
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation3
 
@@ -17,7 +19,8 @@ https://github.com/user-attachments/assets/1b294824-6e86-4ad6-a37f-c54508049145
 
 #
 
-- **Symptom Checker** (Live): Powered by Google Gemini AI, this feature analyzes user-reported symptoms to provide potential diagnoses, enhancing patient accessibility to health insights.
+### Symptom Checker
+Powered by Google Gemini AI, this feature analyzes user-reported symptoms to provide potential diagnoses, enhancing patient accessibility to health insights.
 
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation1
 
@@ -29,7 +32,8 @@ https://github.com/user-attachments/assets/6ea957e5-c009-4c1c-a48f-b6448838b430
 
 #
 
-- **Predictive Patient Risk Models** (Live): Utilizes a machine learning model (`RandomForestClassifier`) to predict hospital readmission risks based on patient data, supporting proactive care.
+### Predictive Patient Risk Models :
+Utilizes a machine learning model (`RandomForestClassifier`) to predict hospital readmission risks based on patient data, supporting proactive care.
 
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation2
 
@@ -40,13 +44,6 @@ https://github.com/user-attachments/assets/431d1b27-2d82-41b0-8cc0-a03af5a8fca4
 
 
 #
-  
-
-
-
-## Why Speech-to-Text is Demoed Locally
-
-The Automated Clinical Documentation feature uses the Vosk speech-to-text model, which requires PyAudio and the PortAudio C library. Render’s free tier does not support installing system-level libraries like PortAudio, preventing PyAudio from being deployed. To ensure a functional live demo, we implemented a text input interface for clinical notes at `/notes`. The NLP Explanation page details this workaround. The full speech-to-text capability is showcased in our local demo video, available in the Cyfuture-Hackathon repository.
 
 ## Setup Instructions
 
