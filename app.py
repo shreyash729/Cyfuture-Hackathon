@@ -37,13 +37,12 @@ recognizer = vosk.KaldiRecognizer(vosk_model, 16000)
 vad = webrtcvad.Vad()
 vad.set_mode(2)
 
-genai.configure(api_key="AIzaSyDdZOGDWMHTzUcvHgHXMCzqv2N97s4-kJE")  # Replace with environment variable in production
-xAi_api = "xai-dB0fAiboIHnk9iSV6Yd9bbAoan1l60BLyxo2TWhey3lEZY84pWySMR4Y99kq0Oszq7xfhWKYOTVSQa3z"
+genai.configure(api_key="YOUR_API_KEY") 
 audio_data = []
 stream = None
 
 # Load dataset for dropdown options (Risk Prediction)
-df = pd.read_csv('./../Datasets/hospital_readmissions.csv')
+df = pd.read_csv('./Datasets/hospital_readmissions.csv')
 AGE_BRACKETS = sorted(df['age'].dropna().unique().tolist())
 DIAGNOSES = ['Circulatory', 'Respiratory', 'Diabetes', 'Digestive', 'Injury', 'Musculoskeletal']
 age_weights = {'[40-50)': 1, '[50-60)': 2, '[60-70)': 3, '[70-80)': 4, '[80-90)': 5, '[90-100)': 6}
