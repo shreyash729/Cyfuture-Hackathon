@@ -9,7 +9,11 @@ Aarogya is an innovative healthcare portal designed to enhance patient care thro
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation3
 
 - ***demo Video:***
-   [Watch Demo Video](/notes.mp4)
+   
+
+
+https://github.com/user-attachments/assets/1b294824-6e86-4ad6-a37f-c54508049145
+
 
 #
 
@@ -18,7 +22,11 @@ Aarogya is an innovative healthcare portal designed to enhance patient care thro
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation1
 
 - ***demo Video:***
-   [Watch Demo Video](/symptoms.mp4)
+   
+
+https://github.com/user-attachments/assets/6ea957e5-c009-4c1c-a48f-b6448838b430
+
+
 #
 
 - **Predictive Patient Risk Models** (Live): Utilizes a machine learning model (`RandomForestClassifier`) to predict hospital readmission risks based on patient data, supporting proactive care.
@@ -26,7 +34,11 @@ Aarogya is an innovative healthcare portal designed to enhance patient care thro
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation2
 
 - ***demo Video:***
-   [Watch Demo Video](/readmission%20risk.mp4)
+  
+
+https://github.com/user-attachments/assets/431d1b27-2d82-41b0-8cc0-a03af5a8fca4
+
+
 #
   
 
