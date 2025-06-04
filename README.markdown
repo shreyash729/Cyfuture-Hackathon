@@ -14,7 +14,10 @@ Aarogya is an innovative healthcare portal designed to enhance patient care thro
    
 
 
-https://github.com/user-attachments/assets/1b294824-6e86-4ad6-a37f-c54508049145
+
+
+https://github.com/user-attachments/assets/3fe6b3b7-150f-41b1-bf55-aca1d0e3d669
+
 
 
 #
