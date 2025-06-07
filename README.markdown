@@ -65,7 +65,7 @@ To run the app locally, including the speech-to-text feature:
  1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/<your-username>/Cyfuture-Hackathon.git
+   git clone https://github.com/shreyash729/Cyfuture-Hackathon.git
    cd Cyfuture-Hackathon
    ```
 
