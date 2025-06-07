@@ -36,7 +36,7 @@ recognizer = vosk.KaldiRecognizer(vosk_model, 16000)
 vad = webrtcvad.Vad()
 vad.set_mode(2)
 
-genai.configure(api_key="YOUR_API_KEY") 
+genai.configure(api_key=os.environ.get("GOOGLE_API_KEY")) 
 audio_data = []
 stream = None
 
