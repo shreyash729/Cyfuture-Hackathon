@@ -77,7 +77,6 @@ To run the app locally, including the speech-to-text feature:
 3. **Set Up Gemini Api Key**:
    ```bash
    set GOOGLE_API_KEY=YOUR_GEMINI_API_KEY   # replace it with your api key
-   pip install -r requirements.txt
    ```
 4. **Install Dependencies**:
    ```bash
