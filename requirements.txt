@@ -5,5 +5,5 @@ pyaudio>=0.2.11
 pandas>=1.1
 plotly>=5.0
 vosk>=0.3.45
-webrtcvad>=2.0.10
+webrtcvad-wheels>=2.0.10
 google-generativeai>=0.2.2
