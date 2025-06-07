@@ -58,22 +58,23 @@ https://github.com/user-attachments/assets/431d1b27-2d82-41b0-8cc0-a03af5a8fca4
 ### Local Demo
 
 To run the app locally, including the speech-to-text feature:
-1. **UPDATE GEMINI API KEY**:
-   - in `app.py` update your gemini api key
-2. **Clone the Repository**:
+
+1. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/<your-username>/Cyfuture-Hackathon.git
    cd Cyfuture-Hackathon
    ```
 
-3. **Install Dependencies**:
+ 2. **UPDATE GEMINI API KEY**:
+   - in `app.py` update your gemini api key
+
+ 3. **Install Dependencies**:
 
    ```bash
    python -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
    pip install -r requirements.txt
-   pip install vosk pyaudio
    ```
 
 4. **Run the App**:
