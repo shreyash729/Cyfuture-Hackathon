@@ -69,14 +69,12 @@ To run the app locally, including the speech-to-text feature:
    cd Cyfuture-Hackathon
    ```
 
- 2. **UPDATE GEMINI API KEY**:
-     - in `app.py` update your gemini api key
 
  3. **Install Dependencies**:
 
     ```bash
     python -m venv venv
-    source venv/bin/activate  # Windows: venv\Scripts\activate
+    set GOOGLE_API_KEY=YOUR_GEMINI_API_KEY   # replace it with your api key
     pip install -r requirements.txt
     ```
 
