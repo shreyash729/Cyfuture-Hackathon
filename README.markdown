@@ -9,6 +9,7 @@ Aarogya is an innovative healthcare portal designed to enhance patient care thro
  The Automated Clinical Documentation app uses voice recognition and NLP to generate structured clinical notes from doctor-patient conversations. It streamlines documentation, reducing administrative burden for   healthcare providers.
 
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation3
+- Note: Render’s free tier may experience \~30-second cold starts after inactivity.
 
 - ***demo Video:***
    
@@ -26,6 +27,7 @@ https://github.com/user-attachments/assets/3fe6b3b7-150f-41b1-bf55-aca1d0e3d669
 Powered by Google Gemini AI, this feature analyzes user-reported symptoms to provide potential diagnoses, enhancing patient accessibility to health insights.
 
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation1
+- Note: Render’s free tier may experience \~30-second cold starts after inactivity.
 
 - ***demo Video:***
    
@@ -39,6 +41,7 @@ https://github.com/user-attachments/assets/6ea957e5-c009-4c1c-a48f-b6448838b430
 Utilizes a machine learning model (`RandomForestClassifier`) to predict hospital readmission risks based on patient data, supporting proactive care.
 
 - ***Documentation:*** https://aarogya-hackathon.onrender.com/documentation2
+- Note: Render’s free tier may experience \~30-second cold starts after inactivity.
 
 - ***demo Video:***
   
