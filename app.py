@@ -13,7 +13,6 @@ import plotly.express as px
 import plotly.io as pio
 import vosk
 import webrtcvad
-import pdfkit
 import google.generativeai as genai
 import re
 
@@ -30,7 +29,7 @@ with open('model/readmission_model.pkl', 'rb') as f:
     risk_metadata = model_dict['metadata']
 
 # Vosk model configuration
-VOSK_MODEL_PATH = "./model/vosk-model-hi-0.22"
+VOSK_MODEL_PATH = "./model/vosk-model-small-hi-0.22/vosk-model-small-hi-0.22"
 assert os.path.exists(VOSK_MODEL_PATH), "❌ Vosk model path is missing!"
 vosk_model = vosk.Model(VOSK_MODEL_PATH)
 recognizer = vosk.KaldiRecognizer(vosk_model, 16000)
