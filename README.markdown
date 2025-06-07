@@ -70,13 +70,19 @@ To run the app locally, including the speech-to-text feature:
    ```
 
 
- 3. **Install Dependencies**:
-
-    ```bash
-    python -m venv venv
-    set GOOGLE_API_KEY=YOUR_GEMINI_API_KEY   # replace it with your api key
-    pip install -r requirements.txt
-    ```
+2. **creates a virtual environment **:
+   ```bash
+   python -m venv venv
+   ```
+3. **Set Up Gemini Api Key **:
+   ```bash
+   set GOOGLE_API_KEY=YOUR_GEMINI_API_KEY   # replace it with your api key
+   pip install -r requirements.txt
+   ```
+4. **Install Dependencies **:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
  4. **Run the App**:
 
