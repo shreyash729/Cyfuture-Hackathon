@@ -64,31 +64,31 @@ To run the app locally, including the speech-to-text feature:
 
  1. **Clone the Repository**:
 
-   ```bash
-   git clone https://github.com/shreyash729/Cyfuture-Hackathon.git
-   cd Cyfuture-Hackathon
-   ```
+    ```bash
+    git clone https://github.com/shreyash729/Cyfuture-Hackathon.git
+    cd Cyfuture-Hackathon
+    ```
 
 
-2. **creates a virtual environment **:
+2. **creates a virtual environment**:
    ```bash
    python -m venv venv
    ```
-3. **Set Up Gemini Api Key **:
+3. **Set Up Gemini Api Key**:
    ```bash
    set GOOGLE_API_KEY=YOUR_GEMINI_API_KEY   # replace it with your api key
    pip install -r requirements.txt
    ```
-4. **Install Dependencies **:
+4. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
  4. **Run the App**:
 
-   ```bash
-   python app.py
-   ```
+    ```bash
+    python app.py
+    ```
 
    - Access `http://127.0.0.1:5000/` 
    - Ensure `model/vosk-model-small-hi-0.22` is present.
