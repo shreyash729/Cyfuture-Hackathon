@@ -474,4 +474,4 @@ app.register_blueprint(symptom_bp)
 
 if __name__ == '__main__':
     print("🚀 Starting Flask server...")
-    socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+    socketio.run(app, debug=False, port=5000)
