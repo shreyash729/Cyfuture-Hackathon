@@ -32,9 +32,7 @@ Powered by Google Gemini AI, this feature analyzes user-reported symptoms to pro
 - ***demo Video:***
    
 
-
-Uploading symptoms.mp4…
-
+https://github.com/user-attachments/assets/0690a4d3-ad5b-4105-8cb5-ad93ddca942d
 
 
 
