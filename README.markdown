@@ -96,8 +96,8 @@ To run the app locally, including the speech-to-text feature:
     ```bash
     python app.py
     ```
-
-   - Access `http://127.0.0.1:5000/` 
+   - Check if terminal displays `🚀 Starting Flask server...`
+   - Access http://127.0.0.1:5000/ to Use Aarogya 
    - Ensure `model/vosk-model-small-hi-0.22` is present.
    - Replace `vosk-model-small-hi-0.22` with `vosk-model-hi-0.22` for better Accuracy
    - Download Vosk NLP model from `https://alphacephei.com/vosk/models`
