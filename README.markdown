@@ -64,11 +64,10 @@ To run the app locally, including the speech-to-text feature:
 
  - Python version >= 3 required
   
- - git is required
-     -download git:
-     `Windows`: https://git-scm.com/downloads/win
-     `Macos` : https://git-scm.com/downloads/mac
-     `linux` : https://git-scm.com/downloads/linux
+ - `Git` is required: (IF NOT available download using following Links) 
+   - `Windows`: https://git-scm.com/downloads/win
+   - `Macos` : https://git-scm.com/downloads/mac
+   - `linux` : https://git-scm.com/downloads/linux
  
  1. **Clone the Repository**:
 
